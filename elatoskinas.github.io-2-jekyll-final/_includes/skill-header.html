@@ -1,0 +1,19 @@
+<div class="skill-icon">
+    <img src="{{skill.icon}}">
+</div>
+
+<p class="skill-title">{{skill.name}}</p>
+
+{% if skill.rating %}
+    <div class="skill-rating">
+        {% for i in (1..skill.rating) %}
+            <i class="fas fa-circle rating-dot"></i>
+        {% endfor %}
+
+        {% for i in (skill.rating..4) %}
+            <i class="far fa-circle rating-dot"></i>
+        {% endfor %}
+
+        <p>{{site.data.skills.skill_labels[skill.rating]}}</p>
+    </div>
+{% endif %}

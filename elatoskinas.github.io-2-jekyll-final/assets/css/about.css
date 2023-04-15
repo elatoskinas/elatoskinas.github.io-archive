@@ -1,0 +1,68 @@
+/* Section */
+section
+{
+    color: var(--text-main-color);
+    background-color: var(--secondary-color);
+    text-align: center;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+    box-shadow: 0px 0px 10px black;
+}
+
+section header h2
+{
+    color: var(--text-secondary-color);
+    text-align: center;
+    background-color: var(--main-color);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 300%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+section > h3
+{
+    font-size: 200%;
+}
+
+section p
+{
+    font-size: 125%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 150%;
+}
+
+/* Info Entry */
+.info-entry {
+    text-align: center;
+}
+
+.info-entry-icon {
+    display: inline-block;
+    background-color: var(--main-color);
+    color: var(--text-secondary-color);
+    width: fit-content;
+    border-radius: 5px;
+    padding: 2px 4px;
+    font-size: 125%;
+}
+
+/* Other Activity */
+.activity-profile-entry img {
+    object-fit: contain;
+    max-width: 100px;
+    max-height: 100px;
+    height: auto;
+    width: auto;
+}
+
+.activity-profile-entry p {
+    font-weight: bold;
+}

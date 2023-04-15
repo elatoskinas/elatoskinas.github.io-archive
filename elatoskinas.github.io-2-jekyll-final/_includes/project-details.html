@@ -1,0 +1,86 @@
+<div class="project-info-header" id="{{project.id}}"
+    {% if {{project.color}} %}
+        style="background-color: {{project.color}}"
+    {% else %}
+        style="background-image: url(/assets/img/projects/{{project.id}}.png)"
+    {% endif %}>
+    <div class="project-info-header-overlay"
+      {% if {{project.opacity}} %}
+        style="background-color: rgba(0,0,0,{{project.opacity}}"
+      {% endif %}
+    >
+        <i class="fas fa-times-circle popup-exit"></i>
+        <h2>{{project.title}}</h2>
+        <h3>{{project.description}}</h3>
+        <br>
+    </div>
+</div>
+
+<div class="project-info-body">
+    <div class="project-info-images">
+        {% for image in project.images %}
+            <a href="assets/img/projects/{{project.id}}/{{image}}"><img src="assets/img/projects/{{project.id}}/{{image}}"></a>
+        {% endfor %}
+    </div>
+
+    <div class="info-entries">
+        <div class="info-entry">
+            <div class="info-entry-icon">
+                <i class="fas fa-laptop-code"></i>
+                Project Type
+            </div>
+            <p>{{project.type}}</p>
+        </div>
+    
+        <div class="info-entry">
+            <div class="info-entry-icon">
+                <i class="fas fa-user-cog"></i>
+                Role
+            </div>
+            <p>{{project.role}}</p>
+        </div>
+    
+        <div class="info-entry">
+            <div class="info-entry-icon">
+                <i class="fas fa-desktop"></i>
+                Platform
+            </div>
+            <p>{{project.platform}}</p>
+        </div>
+    
+        <div class="info-entry">
+            <div class="info-entry-icon">
+                <i class="fas fa-layer-group"></i>
+                Languages & Technologies
+            </div>
+    
+            {% for tech in project.technologies %}
+                <p>{{ tech }}</p>
+            {% endfor %}
+        </div>
+    
+        <div class="info-entry">
+            <div class="info-entry-icon">
+                <i class="fas fa-tasks"></i>
+                Work Involved
+            </div>
+    
+            {% for detail in project.details %}
+                <p>{{ detail }}</p>
+            {% endfor %}
+        </div>
+    
+        {% if project.links %}
+            <div class="info-entry">
+                <div class="info-entry-icon">
+                    <i class="fas fa-link"></i>
+                    Links
+                </div>
+        
+                {% for link in project.links %}
+                    <p><a href="{{link.link}}">{{link.name}}</a></p>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+</div>

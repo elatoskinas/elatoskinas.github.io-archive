@@ -1,0 +1,205 @@
+skill_labels:
+  - Inexperienced
+  - Beginner
+  - Intermediate
+  - Comfortable
+  - Proficient
+  - Expert
+
+categories:
+  - name: Programming
+    skills:
+    - name: Java
+      icon: "https://img.icons8.com/color/96/000000/java-coffee-cup-logo.png"
+      rating: 4
+      details:
+        familiarity:
+          - name: Spring
+            icon: "https://spring.io/images/projects/spring-edf462fec682b9d48cf628eaf9e19521.svg"
+          - name: Android SDK
+            icon: "https://img.icons8.com/color/96/000000/android-os.png"
+          - name: GWT
+            icon: "https://cdn.freebiesupply.com/logos/large/2x/gwt-logo-png-transparent.png"
+          - name: Mockito
+            icon: "https://cdn.nearsoft.com/uploads/2016/11/annotation-magic-with-mockito-injectmocks-top-800x400.png"
+          - name: JUnit
+            icon: "https://avatars3.githubusercontent.com/u/874086?s=400&v=4"
+          - name: PMD
+            icon: "https://pmd.github.io/img/pmd_logo.png"
+          - name: Checkstyle
+            icon: "https://checkstyle.org/images/header-checkstyle-logo.png"
+        uses:
+          - Android Projects
+          - Java Desktop Applications
+          - Java Server Applications
+        # projects:
+        #   - Finbuddy
+        #   - GoGreen
+
+    - name: C#
+      icon: "https://img.icons8.com/color/96/000000/c-sharp-logo-2.png"
+      rating: 3
+      details:
+        familiarity:
+          - name: Unity
+            icon: "https://img.icons8.com/ios-filled/100/000000/unity.png"
+        uses:
+          - Game development
+        # projects:
+        #   - Virtual Poker Chips
+        #   - Sphere Archer
+
+    - name: Python
+      icon: "https://img.icons8.com/color/96/000000/python.png"
+      rating: 3
+      details:
+        familiarity:
+          - name: Numpy
+            icon: "https://numfocus.org/wp-content/uploads/2016/07/numpy-logo-300.png"
+          - name: Pandas
+            icon: "https://numfocus.org/wp-content/uploads/2016/07/pandas-logo-300.png"
+          - name: Scikit-Learn
+            icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png"
+          - name: Matplotlib
+            icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Matplotlib_icon.svg/1024px-Matplotlib_icon.svg.png"
+        uses:
+          - Entry-level Data Science & Data Visualization
+          - Understanding and implementing Machine Learning algorithms primarily using Numpy
+          - Various data extraction & transformation using Numpy & Pandas
+
+    - name: Javascript
+      icon: "https://img.icons8.com/color/96/000000/javascript.png"
+      rating: 3
+      details:
+        familiarity:
+          - name: NodeJS
+            icon: "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"
+          - name: Typescript
+            icon: "https://img.icons8.com/color/96/000000/typescript.png"
+          - name: React
+            icon: "https://img.icons8.com/office/80/000000/react.png"
+          - name: Electron
+            icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Electron_Software_Framework_Logo.svg/1024px-Electron_Software_Framework_Logo.svg.png"
+          - name: EJS
+            icon: "https://img.icons8.com/pastel-glyph/64/000000/source-code--v3.png"
+        uses:
+          - Personal website
+          - Node.js web applications
+          - React web application
+          - Electron cross-platform web application
+        # projects:
+        #   - PixelChess
+
+    - name: C++
+      icon: "https://img.icons8.com/color/96/000000/c-plus-plus-logo.png"
+      rating: 3
+      details:
+        familiarity:
+          - name: OpenGL
+            icon: "https://uploads.gamedev.net/monthly_2017_08/opengl_icon.jpg.c0ec64888e81ca592274c57c9e1d54e5.jpg"
+        uses:
+          - Algorithmic problem solving (utilizing C++ STL)
+          - Computer Graphics
+
+    - name: HTML & CSS
+      icon: "https://img.icons8.com/color/96/000000/html-5.png"
+      rating: 2
+      details:
+        familiarity:
+          - name: Jekyll & Liquid
+            icon: "https://jekyllrb.com/img/logo-2x.png"
+          - name: Emotion
+            icon: https://miro.medium.com/max/1028/1*p236DRigU2r56RfNuPhzuQ.png
+        uses:
+          - Personal website
+          - Node.js web applications
+          - Proposals
+        # projects:
+        #   - PixelChess
+
+    - name: Scala
+      icon: "https://www.scala-lang.org/resources/img/frontpage/scala-spiral.png"
+      rating: 2
+      details:
+        familiarity:
+          - name: Spark
+            icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Apache_Spark_logo.svg/388px-Apache_Spark_logo.svg.png"
+          - name: Flink
+            icon: "https://flink.apache.org/img/logo/png/1000/flink_squirrel_1000.png"
+        uses:
+          - Learning Big Data Processing techniques with Spark & Flink
+          - Learning functional programming techniques
+
+    - name: Assembly
+      icon: "https://img.icons8.com/color/96/000000/linux.png"
+      rating: 2
+      details:
+        uses:
+          - Various university assignments, including writing a printf using only syscalls, encoding & decoding a bitmap image,
+            writing a esoteric language (brainfuck) interpreter and a game
+        # projects:
+        #   - Assembly RPG
+
+  - name: Databases
+    skills:
+      - name: SQL
+        icon: "https://img.icons8.com/dusk/96/000000/sql.png"
+        rating: 3
+        details:
+          familiarity:
+            - name: PostgreSQL
+              icon: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+            - name: MySQL
+              icon: "https://img.icons8.com/nolan/96/mysql.png"
+            - name: SQLite
+              icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/1024px-Sqlite-square-icon.svg.png"
+          uses:
+            - University assignments involving writing complex queries
+            - Understanding & delving into relational algebra concepts
+          # projects:
+          #   - Finbuddy
+
+      - name: MongoDB
+        icon: "https://img.icons8.com/color/96/000000/mongodb.png"
+        rating: 2
+        details:
+          familiarity:
+            - name: Morphia Driver
+              icon: "https://morphia.dev//s/img/logo.png"
+          uses:
+            - University assignments involving writing complex queries
+            - Integrating MongoDB into a Java Spring server application using Morphia driver
+            - Creating MongoDB database that can be connected remotely using MongoDB Atlas
+          # projects:
+          #   - GoGreen
+
+      - name: Neo4J
+        icon: "https://s3.amazonaws.com/dev.assets.neo4j.com/wp-content/uploads/neo4j_logo_globe1-150x150.png"
+        rating: 1
+        details:
+          uses:
+            - University assignments involving writing queries
+    
+
+  - name: Tools
+    skills:
+      - name: Git
+        icon: "https://img.icons8.com/color/48/000000/git.png"
+
+      - name: Maven
+        icon: "https://editorconfig.org/logos/maven.png"
+
+      - name: Gradle
+        icon: "https://dwglogo.com/wp-content/uploads/2017/12/Gradle_logo_01.png"
+
+      - name: Gitlab CI/CD
+        icon: "https://img.icons8.com/color/96/000000/gitlab.png"
+
+      - name: Windows Operating System (XP, 7, 10)
+        icon: "https://img.icons8.com/color/96/000000/windows-logo.png"
+
+      - name: Linux Operating System
+        icon: "https://img.icons8.com/color/96/000000/linux.png"
+
+      - name: Android
+        icon: "https://img.icons8.com/color/96/000000/android-os.png"

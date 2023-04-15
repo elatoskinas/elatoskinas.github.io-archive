@@ -1,0 +1,13 @@
+<div class="skill">
+    {% include skill-header.html %}
+
+    {% if skill.details %}
+        <div class="skill-details">
+            <button class="popup-button info-button">Details</button>
+
+            <div class="popup-menu">
+                {% include skill-details.html %}
+            </div>
+        </div>
+    {% endif %}
+</div>

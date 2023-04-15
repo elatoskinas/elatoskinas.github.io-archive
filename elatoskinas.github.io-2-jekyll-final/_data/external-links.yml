@@ -1,0 +1,15 @@
+- name: linkedin
+  icon: "https://img.icons8.com/color/144/000000/linkedin.png"
+  url: https://www.linkedin.com/in/evaldas-latoskinas/
+
+- name: github
+  icon: "https://img.icons8.com/material-rounded/128/000000/github.png"
+  url: https://github.com/elatoskinas
+
+- name: email
+  icon: "https://img.icons8.com/clouds/100/000000/email.png"
+  url: "mailto: enlightenworks.dev@gmail.com"
+
+- name: google-play
+  icon: "https://img.icons8.com/color/144/000000/google-play.png"
+  url: https://play.google.com/store/apps/developer?id=Enlighten+Works

@@ -1,0 +1,15 @@
+<div class="project">
+    <div class="project-overview">
+        <img src="assets/img/projects/{{project.id}}.png">
+        <div class="project-overlay">
+            <p>{{project.description}}</p>
+            <button class="popup-button">Details</button>
+        </div>
+    </div>
+
+    <div class="popup-menu">
+        <div class="popup-menu-content project-info-content">
+            {% include project-details.html %}
+        </div>
+    </div>
+</div>

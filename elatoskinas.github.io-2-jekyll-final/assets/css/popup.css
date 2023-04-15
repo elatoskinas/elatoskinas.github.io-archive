@@ -1,0 +1,58 @@
+/* Popup */
+.popup-menu {
+    display: none; /* hide popup initially */
+    position: fixed;
+    z-index: 1; /* render on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.popup-menu-content {
+    background-color: var(--secondary-color);
+    padding-bottom: 5px;
+}
+
+.popup-menu-content .info-entry-icon {
+    margin: 10px 0;
+}
+
+.popup-menu-content p {
+    padding: 5px 5px;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.popup-exit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    font-size: 32px;
+    color: var(--text-secondary-color);
+}
+
+.popup-exit:hover {
+    color: #ff4a3a;
+}
+
+.popup-exit:active {
+    color: #ee2c1a;
+}
+
+/* Specific margins */
+.skill-info-content {
+    margin: 4% 25%;
+}
+
+.project-info-content
+{
+    margin: 2% 18%;
+}
+
+.project-info-content a {
+    font-weight: bold;
+}

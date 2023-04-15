@@ -1,0 +1,182 @@
+/* Project Overview */
+.project-overview
+{
+    height: 190px;
+    width: 380px;
+    padding: 15px 15px;
+    animation-name: project-open;
+    animation-duration: 1s;
+    display: inline-block;
+    position: relative;
+}
+
+.project-overview p
+{
+    color: var(--text-secondary-color);
+    font-size: 200%;
+}
+
+.project-overview img
+{
+    height: 100%;
+    width: 100%;
+    transition: filter 0.5s;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.project-overview:hover img
+{
+    transition: ease-in 0.2s;
+    filter: brightness(40%);
+}
+
+.project-overview:hover .project-overlay {
+    opacity: 1;
+}
+
+/* Project Overlay */
+.project-overlay {
+    /* Center Inside */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+
+    width: 100%;
+    height: 90%;
+
+    opacity: 0;
+    transition: .2s ease-in;
+}
+
+.project-overlay p {
+    margin: 0;
+    font-size: 24px;
+    line-height: 125%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.project-overlay .popup-button {
+    /*font-size: 1.5vw;*/
+    font-size: 24px;
+
+    padding: 1% 5%;
+    margin-top: 5%;
+
+    /* Fix button to bottom center */
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%);
+
+    color: white;
+}
+
+
+@keyframes project-open
+{
+    from {opacity: 0; }
+    to {opacity: 1; }
+}
+
+
+/* Project Info */
+.project-info-header
+{
+    position: relative;
+    color: var(--text-secondary-color);
+    text-align: center;
+    height: 100%;
+    text-shadow: 2px 2px black;
+    background-size: cover;
+    background-position: center;
+}
+
+.project-info-header-overlay {
+    width: 100%;
+    height: 100%;
+}
+
+.project-info-header br {
+    line-height: 50%;
+}
+
+.project-info-header h2
+{
+    font-size: 250%;
+    margin-bottom: 1%;
+    margin-top: 0;
+    padding-top: 1%;
+}
+
+.project-info-header h3
+{
+    font-size: 175%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.project-info-images
+{
+    padding-top: 2%;
+    overflow-x: auto;
+    text-align: center;
+}
+
+.project-info-images img
+{
+    height: 30%;
+    width: 30%;
+}
+
+.project-info p
+{
+    margin-left: 10px;
+}
+
+.project-info li
+{
+    margin-right: 10px;
+}
+
+.project-info-button
+{
+    height: 30px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-secondary-color);
+    font-weight: bold;
+    font-size: 150%;
+    background-color: #3cda69;
+    border: 1px solid black;
+    float: right;
+}
+
+.project-info-button:hover
+{
+    background-color: #1ae754;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.project-info-close
+{
+    display: inline-block;
+    float: none;
+    background-color: #d13535;
+}
+
+.project-info-close:hover,
+.project-info-close:focus
+{
+    background-color: #e21e1e;
+}
+
+.project-info a {
+    font-weight: bold;
+}

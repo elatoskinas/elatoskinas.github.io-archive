@@ -1,0 +1,24 @@
+# Contact details
+name: Evaldas Latoškinas
+handle: "@elatoskinas"
+email: enlightenworks.dev@gmail.com
+
+info:
+  - name: Occupation (Primary Focus)
+    content: Software Development & Engineering
+    icon: fa-briefcase
+  - name: Education
+    content: TU Delft, Computer Science & Engineering 2nd year Bachelor
+    icon: fa-graduation-cap
+  - name: Location
+    content: 🇳🇱 Delft, Netherlands
+    icon: fa-home
+  - name: Nationality
+    content: 🇱🇹 Lithuanian
+    icon: fa-flag
+  - name: Aliases
+    content: lightingft, Enlighten Works
+    icon: fa-at
+  - name: Years of Experience
+    content: 4 years
+    icon: fa-star

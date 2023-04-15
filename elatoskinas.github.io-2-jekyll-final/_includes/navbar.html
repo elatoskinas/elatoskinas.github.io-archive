@@ -1,0 +1,13 @@
+<nav>
+  <img src="/assets/img/cmd.png" style="max-width: 32px; vertical-align: middle">
+
+  <!-- Create links to pages -->
+  {% for section in site.data.sections %}
+    {% if page.url == section.url %}
+      <!-- Set active_page class to current page based on urls -->
+      <a href="{{section.url}}" class="active_page">{{section.title}}</a>
+    {% else %}
+      <a href="{{section.url}}">{{section.title}}</a>
+    {% endif %}
+  {% endfor %}
+</nav>

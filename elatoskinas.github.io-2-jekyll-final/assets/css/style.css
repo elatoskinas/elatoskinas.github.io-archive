@@ -1,0 +1,149 @@
+/* Common Variables (colors of site) */
+:root {
+    --main-color: #47a6ff;
+    --secondary-color: #ebebeb;
+    --tertiary-color: #0880f0;
+    --accent-dark: #2696ff;
+    --accent-light: #61b3ff;
+
+    --text-main-color: black;
+    --text-secondary-color: white;
+}
+
+/* HTML & Body */
+html
+{
+    background-size: cover;
+    font-family: "Courier", sans-serif;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    color: var(--text-main-color);
+
+    background: url("../img/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+main
+{
+    overflow: auto;
+}
+
+/* Links */
+a {
+    color: #00c8ff;
+}
+
+a:visited {
+    color: #6ee0ff;
+}
+
+a:hover {
+    color: #009dff;
+}
+
+a:active {
+    color: var(--tertiary-color);
+}
+
+/* Header & Navigation Bar */
+body > header
+{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    /* background-image: linear-gradient(#3ca3f7, #123858); */
+    /* background: linear-gradient(180deg, #ffffff, #c7c7c7); */
+    background: var(--accent-light);
+    font-size: 120%;
+    z-index: 1;
+}
+
+body nav a, body footer a
+{
+    color: var(--text-main-color);
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+body nav a:visited, body footer a:visited {
+    color: var(--text-main-color);
+}
+
+body nav a:hover, body footer a:hover
+{
+    color: var(--text-secondary-color);
+}
+
+body nav a.active_page
+{
+    color: var(--text-secondary-color);
+    text-decoration: underline;
+}
+
+@keyframes fadein
+{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Footer */
+body footer {
+    background-color: var(--accent-light);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+body footer p {
+    margin: 5px 10px;
+}
+
+/* Button */
+button {
+    border-radius: 20px;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: var(--main-color);
+    color: var(--text-main-color);
+    transition: ease 0.2s;
+}
+
+button:hover {
+    background-color: var(--main-color);
+}
+
+button:active {
+    filter: contrast(200%);
+}
+
+button:focus {
+    outline: 0;
+}
+
+/* Tooltip */
+/* .tooltip-text {
+    visibility: hidden;
+
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+
+    padding: 2px 5px;
+    text-align: center;
+
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+}
+
+.tooltip .tooltip-text {
+    margin-left: 1%;
+} */

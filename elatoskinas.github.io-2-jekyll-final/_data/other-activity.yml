@@ -1,0 +1,46 @@
+- name: Coding Contests
+  description: "I had previously participated in various coding contests, mostly in my high school days.
+                Nowadays, I still like to solve a programming challenge or participate in an online contest
+                from time to time."
+  profile:
+    - name: LMIO Finalist (Lithuanian Informatics Olympiad for high school students)
+      icon: https://scontent.fvno5-1.fna.fbcdn.net/v/t1.0-9/10155705_1576634622582292_689248599655556739_n.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_oc=AQlpalH0w6mk9a4RmMnJPDsPk_IwWhQiRyqI1ywHMIRTclb8zCHHl3t56mx0WZCUubY&_nc_ht=scontent.fvno5-1.fna&oh=9659f8b203b6e8d10bed5772d0acac27&oe=5F20B2D7
+      link: http://www.lmio.mii.vu.lt/?p=viewarticle&id=328
+    - name: Codeforces
+      icon: https://sta.codeforces.com/s/29789/images/codeforces-telegram-square.png
+      link: https://codeforces.com/profile/evaldasl61
+    - name: Hackerrank
+      icon: https://1.bp.blogspot.com/-ULT9oDhqr24/XJYCrttOEpI/AAAAAAAAJYE/inXHXlzblBI3SbcGpiUj4TMNj-E8uPlaQCK4BGAYYCw/s1600/logo%2Bhackerrank%2Bicon.png
+      link: https://www.hackerrank.com/evaldasl61
+    - name: Leetcode
+      icon: https://repository-images.githubusercontent.com/98157751/7e85df00-ec67-11e9-98d3-684a4b66ae37
+      link: https://leetcode.com/elatoskinas/
+
+- name: Open Source contributions
+  description: "I have made some contributions in open source communities. Primarily, I contribute to the MIT App Inventor project.
+                Moreover, I am a former Google Summer of Code participant."
+  profile:
+    - name: Google Summer of Code 2019
+      icon: https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/GSoC-icon.svg/1200px-GSoC-icon.svg.png
+      link: https://summerofcode.withgoogle.com/archive/2019/projects/4934538826874880/
+    - name: App Inventor Contributions
+      icon: https://www.researchgate.net/publication/331807684/figure/fig1/AS:737080938348544@1552745198979/MIT-App-Inventor-Platform-Icon-MIT-App-Inventor-is-a-platform-for-creating-open-source.ppm
+      link: https://github.com/mit-cml/appinventor-sources/pulls/elatoskinas
+
+- name: 3D Modelling & Game Development
+  description: "As a hobby, I do 3D Modelling using Blender. I use these models for my hobby game projects."
+  profile:
+    - name: Game Dev blogspot (Enlighten Works)
+      icon: "https://img.icons8.com/color/144/000000/blogger.png"
+      link: http://enlightenworks.blogspot.com/
+    - name: Google Play releases
+      icon: "https://img.icons8.com/color/96/000000/google-play.png"
+      link: https://play.google.com/store/apps/developer?id=Enlighten+Works
+
+- name: Graphic Design
+  description: "I possess quite a few years of graphic design experience, and have freelanced as a graphic designer in the past.
+                Nowadays, it's more of a hobby that I still partake in from time to time."
+  profile:
+    - name: Fiverr profile
+      icon: https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/129_Fiverr_logo_logos-512.png
+      link: https://www.fiverr.com/lightingft

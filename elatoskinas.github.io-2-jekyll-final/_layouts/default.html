@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>elatoskinas</title>
+    <link rel="icon" type="image/pn" href="/assets/img/favicon.png">
+    <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- Include all CSS based on variables of page -->
+    {% if page.css %}
+      {% for stylesheet in page.css %}
+        <link href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css" rel="stylesheet" type="text/css">
+      {% endfor %}
+    {% endif %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/19e13c203e.js" crossorigin="anonymous"></script>
+
+    <!-- Include all JS based on variables of page -->
+    {% if page.js %}
+      {% for script in page.js %}
+        <script src="/assets/js/{{ script }}.js"></script>
+      {% endfor %}
+    {% endif %}
+  </head>
+
+  <body>
+    <header>
+      {% include navbar.html %}
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+  </body>
+
+</html>

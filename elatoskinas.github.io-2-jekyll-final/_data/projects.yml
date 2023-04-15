@@ -1,0 +1,337 @@
+- title: Finbuddy
+  id: finbuddy
+  description: Personal finance tracker Android app
+  color: "#0073ff"
+  images:
+    - img1.png
+    - img2.png
+    - img3.png
+  type: Hobby/School project
+  role: The only developer in a 4 person team
+  platform: Android
+  technologies:
+    - Java
+    - Android SDK
+    - SQLite
+    - XML
+    - Gradle
+  details:
+    - "Building & scripting a mobile application from scratch, which involved adding UI functionality,
+       scripting menus and adding various extensive features in the Android Studio environment"
+    - "Implementing & utilizing an SQLite database for large amounts of user data saving"
+    - "UI coding in XML"
+    - "Integrating 3rd party libraries to use in the app (e.g. in-app purchases, ads, charts)"
+    - "Use of Gradle, updating project dependencies, fixing deprecated code"
+  links:
+    - name: Google Play
+      link: https://play.google.com/store/apps/details?id=emporium.financecalendar
+
+- title: Virtual Poker Chips
+  id: virtual-poker-chips
+  description: Poker chips simulator Android app
+  opacity: 0.25
+  images:
+    - img1.png
+    - img2.png
+    - img3.png
+  type: Hobby project
+  role: Developer & Designer (individual)
+  platform: Unity (Android)
+  technologies:
+    - Unity
+    - C#
+  details:
+    - "Building a mobile app from scratch, which included writing the game logic (advancing turns,
+       keeping track of various variables, taking action accordingly), adding simple customization,
+       game customization (player count, chip count, etc.) and implementing a save-load system"
+    - "Building a Unity UI from scratch, including UI design and graphic design"
+    - "Implementing 3rd party ads and in-app purchases"
+  links:
+    - name: Google Play
+      link: https://play.google.com/store/apps/details?id=enlightenworks.VirtualPokerChips
+
+- title: Sphere Archer
+  id: sphere-archer
+  description: Turn-based mobile game for Android
+  opacity: 0.1
+  images:
+    - img1.png
+    - img2.png
+    - img3.png
+  type: Hobby project
+  role: Developer & Designer (individual)
+  platform: Unity (Android)
+  technologies:
+    - Unity
+    - C#
+    - Blender
+  details:
+    - "Building a mobile game from scratch (only utilizing the Unity engine), which included
+       writing the game logic, utilizing the in-built physics engine to control movements,
+       writing the logic for a very simple AI opponent and adding functionality to the UI"
+    - "Building a Unity UI from scratch, including UI design and graphic design"
+    - "Implementing Unity ads"
+    - "Mathematics & Physics applications in practice"
+    - "Simple 3D modelling"
+  links:
+    - name: Google Play
+      link: https://play.google.com/store/apps/details?id=com.SphereArcher
+
+- title: Pixel Chess
+  id: pixelchess
+  description: Chess Web Application powered by Node.js
+  opacity: 0.2
+  images:
+    - img1.png
+    - img2.png
+    - img3.png
+  type: University project
+  role: Developer in a 2 person group
+  platform: Web
+  technologies:
+    - Javascript
+    - Node.js
+    - CSS
+    - HTML
+    - EJS
+  details:
+    - "Chess logic code done from scratch in JavaScript. This includes the majority of real Chess rules,
+        such as movement, invalid move checking, checkmating, stalemate, pawn conversion when end of board
+        is reached"
+    - "Clientside JavaScript code to update the view of the game state, as well as rotate the board accordingly
+        per Player's piece color"
+    - "Node.js client-server communication code (using Express), including sending requests for Player actions
+       and sending back the proper responses"
+    - "HTML design from scratch"
+    - "CSS styling from scratch"
+    - "CSS states, CSS animation triggering by clientside JavaScript code"
+    - "EJS templating"
+  links:
+    - name: Heroku
+      link: https://cse404-chess.herokuapp.com/
+    - name: Github
+      link: https://github.com/elatoskinas/cse404-chess
+
+- title: Assembly RPG
+  id: assembly-rpg
+  description: Text-based RPG done in Assembly
+  opacity: 0.2
+  images:
+    - img1.png
+    - img2.png
+    - img3.png
+  type: University project
+  role: Developer (individual)
+  platform: QEMU
+  technologies:
+    - x86 GAS Assembly
+    - QEMU
+  details:
+    - "Manual code writing to print text on screen character by character with the required colors"
+    - "Implementing various logic, such as the levelling system, random battles, random events,
+       gold system, shop system, stat system"
+    - "Combat system based on my own written logic"
+    - "Scene system"
+    - "High score system and Player insertion into the list (much like in Insertion Sort) implementation"
+    - "PS2 mapping to ASCII"
+  links:
+    - name: Github
+      link: https://github.com/elatoskinas/Assembly-RPG
+
+- title: GoGreen
+  id: gogreen
+  description: Social Network-like desktop application to track CO2 savings
+  images:
+    - img1.png
+    - img2.png
+    - img3.png
+  type: University project
+  role: Backend Developer in a 7 person team
+  platform: Desktop
+  technologies:
+    - Java
+    - Spring
+    - Maven
+    - MongoDB
+    - JUnit
+    - Mockito
+    - Gitlab CI/CD
+  details:
+    - "Following of the Scrum process by conducting a weekly Scrum meeting and 
+       planning 2-week Sprints for each iteration of the project"
+    - "Setting up & connecting MongoDB to the server (both local and remote instances)
+        with the help of the Spring framework."
+    - "Writing various MongoDB database queries (e.g. regexp user search)"
+    - "Utilizing the DAO pattern for data access within the server code"
+    - "Password encryption"
+    - "Integration & Mock Testing to test server components"
+    - "Various logic code to filter & sort user data.
+        (E.g. filter activities by date, CO2, category criteria)"
+    - "Heroku deployment & linking to a remote database"
+    - "Setting up GitLab CI to compile the project, run the tests,
+        force CheckStyle and 90% test coverage, and create artifacts
+        for both CheckStyle & test results."
+  links:
+    - name: Github
+      link: https://github.com/elatoskinas/cse38-gogreen
+
+- title: JPacman Testing
+  id: jpacman-testing
+  description: Series of university assignments to familiarize with various testing techniques
+  opacity: 0.4
+  type: University project
+  role: Tester in a 2 person group
+  platform: Desktop
+  technologies:
+    - Java
+    - JUnit
+    - AssertJ
+    - Mockito
+    - Cucumber
+    - Gradle
+    - Gitlab CI/CD
+  details:
+    - "Writing unit tests for good cases and edge cases that involved testing the game's functionality, such as
+      the movement and traversal systems."
+    - "Usage and familiarization of smoke testing to quick-test a system for crashes"
+    - "Writing integration & system-level tests to test the integration of multiple game components"
+    - "Usage of the random fuzzing testing technique to detect anomalies in the behavior of the system"
+    - "State-based testing using created state-chart diagrams to test the game logic"
+    - "Introduction to test-driven development by writing some test cases for a new functionality and then
+      implementing it to carry out a given task"
+  links:
+    - name: Base project provided by the course
+      link: https://github.com/SERG-Delft/jpacman-framework
+  
+- title: App Inventor Chart Components
+  id: appinventor-charts
+  description: Chart Components for App Inventor
+  opacity: 0.2
+  images:
+    - preview.png
+    - bar-charts.png
+    - pie-charts.png
+    - web-chart.png
+    - arduino-setup.jpg
+  type: Google Summer of Code 2019 Open Source Project
+  role: Developer
+  platform: Web & Android
+  technologies:
+    - Java
+    - Android SDK
+    - Google Web Toolkit (GWP)
+    - Google Cloud Platform (GCP)
+    - JUnit
+    - Redis
+    - Arduino
+  details:
+    - "Creating a new component in the form of a subclass with extended functionality conforming to the conventions of the component system already in place"
+    - "Usage of the MPAndroidChart library to create Charts on the Android side of App Inventor based on user's actions"
+    - "Usage of the Charba library to create Charts on the Web side of App Inventor to visualize user actions"
+    - "Building a system that allows the addition, removal and search of data entries"
+    - "Designing & re-iterating over the Chart and Chart Data components to achieve a clear separation of the view from the data."
+    - "Implementation of extendable Chart types, currently supporting Area, Bar, Line, Scatter and Pie Charts"
+    - "Conversion of existing possible data sources to Chart-compatible data sources using a modified Observer pattern to allow for notification
+       of new data events"
+    - "Integration of the existing Bluetooth component to allow sending live data to the Chart via Bluetooth. This also involved testing with simple
+       Arduino programs to test the integration of IoT devices with the created Chart components."
+    - "Handling various integration issues that arose with the libraries, namely achieving consistency between two different libraries, handling the
+       Android side of the code to be compatible with the App Inventor system in place in order to prevent errors, and so on"
+    - "Building a custom nested Pie Chart drawing system from the MPAndroidChart library which only allowed for single non-nested Pie Charts"
+    - "Extra code to support JSON & CSV parsing to a more user-friendly foramt in the App Inventor system"
+    - "Some manual usage of Redis (adding some data, setting up the database) to manually test the integration with an App Inventor component and the Charts"
+    - "Deployment to Google Cloud Platform to serve a testing instance to testers and fellow developers"
+  links:
+    - name: GSoC Project Link
+      link: https://summerofcode.withgoogle.com/archive/2019/projects/4934538826874880/
+    - name: Summary Blog Post
+      link: https://elatoskinas.github.io/blog/open%20source/2019/08/25/gsoc-2019-project-summary.html
+    - name: Pull Request
+      link: https://github.com/mit-cml/appinventor-sources/pull/1776
+    - name: Github Project Board
+      link: https://github.com/elatoskinas/appinventor-sources/projects/1
+
+- title: Ray Tracer
+  id: raytracer
+  description: Ray Tracer written in C++
+  images:
+  - globe.png
+  - absorption.png
+  - antialiasing.png
+  - crystal.png
+  - refraction.png
+  - gloss.png
+  type: University project
+  role: Developer in a 6 person group
+  platform: Desktop
+  technologies:
+    - C++
+    - OpenGL
+    - Tucano framework
+  details:
+    - "Writing code to detect ray vs plane, triangle, box and sphere intersections from scratch based on relevant variables
+      (triangle vertex positions and ray properties)"
+    - "Implementation of barycentric coordinate checking to check if a point lies within a triangle"
+    - "Implementation of the Bounding Volume Hierarchy tree structure to optimize intersection checking while ray tracing."
+    - "Interactive display of the bounding volume hierarchy, including the highlight of which bounding box was hit on intersection"
+    - "Implementation of refraction using the Fresnel Factor (by Schlick's approximation) to give more realistic refraction effects"
+    - "Glossy reflection & refraction feature by making use of the principles of distributed (stochastic) ray tracing by random sampling"
+    - "Parallelization of the ray tracer by writing a custom scheduler system in C++ to schedule tasks in appropriate order"
+    - "Anti-aliasing implementation of rendered image by rendering larger image and taking an average around a neighborhood of pixels"
+
+- title: Mock Netflix Challenge
+  id: netflix-challenge-mock
+  description: Recommender system to predict movies based on currently available data
+  color: "#ff2626"
+  type: University project
+  role: Developer (individual)
+  platform: Desktop
+  technologies:
+    - Python
+    - Numpy
+    - Pandas
+  details:
+    - "Implementation of the Collaborative Filtering algorithm based on both users and movies to predict unknown ratings,
+      given some known ratings by users for certain movies."
+    - "Nearest neighbor implementation to find nearest users/movies based on the Pearson Correlation Coefficient as the similarity measure"
+    - "Implementation of the Matrix Factorization (Latent Factors) approach to predict unknown ratings"
+    - "Introduction of global & local biases based on BellKor's implementation of the recommender system"
+    - "Combination of implemented models using a weighted linear model"
+    - "Testing the model accuracy using the Root Mean Squared Error (RMSE) measure"
+    - "Writing a report detailing the findings, insights and results of the implemented algorithms"
+
+- title: Java 8-ball Pool
+  id: java-8ball-pool
+  description: 8-Ball Pool Game written in Java using the LibGDX library
+  images:
+    - cue-aim.png
+  opacity: 0.1
+  type: University project
+  role: Developer in a 5 person group
+  platform: Desktop
+  technologies:
+    - Java
+    - LibGDX
+    - JUnit
+    - Mockito
+    - SQLite
+    - Gradle
+    - Gitlab CI/CD
+  details:
+    - "Following of the Scrum process by conducting a weekly Scrum meeting and 
+       planning 2-week Sprints for each iteration of the project"
+    - "Writing functional requirements based on the MoSCoW method to plan out the features of the game
+      and prioritize them"
+    - "Drawing use case diagrams for select features to visualize the flow of select use cases in
+      order to validate them later on"
+    - "Drawing class diagrams and their relations to visualize individual system components in more detail
+       and have a better overview of the components that the game consisted of"
+    - "Drawing component diagrams to represent the system architecture of the game"
+    - "Refactoring code based on automatic tools that produce metrics to improve the overall code quality with regards
+       to code coupling, method and class complexity, cyclomatic complexity among others"
+    - "Extensive testing of the code by writing relevant unit tests and some integration tests to test game component interactions"
+    - "Application of design patterns that served a purpose in the project, namely the Factory Method pattern which allowed to abstract
+       the creation of objects, and the Observer pattern that allowed a game in progress to send events to all relevant observers"
+    - "Implementation of various game logic elements, such as player turn advancement, more intricate 8-ball pool potting rules,
+       game state changes (wing and loss), and a ball potting system"
+    - "Implementation of a clearly abstracted environment to keep track and create game elements, namely the pool balls, cue and the pool table"

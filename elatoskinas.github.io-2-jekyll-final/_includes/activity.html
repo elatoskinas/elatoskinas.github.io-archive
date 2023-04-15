@@ -1,0 +1,15 @@
+<div class="activity">
+    <h3>{{activity.name}}</h3>
+    <p>{{activity.description}}</p>
+    
+    {% if activity.profile %}
+        <div class="activity-profile skill-box">
+            {% for profile in activity.profile %}
+                <div class="activity-profile-entry skill">
+                    <img src="{{profile.icon}}">
+                    <p><a href="{{profile.link}}">{{profile.name}}</a></p>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
