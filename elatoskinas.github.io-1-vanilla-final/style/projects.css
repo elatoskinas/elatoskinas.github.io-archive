@@ -1,0 +1,180 @@
+/* Project buttons */
+.project
+{
+    height: 15vw;
+    width: 30vw;
+    float: left;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    animation-name: project-open;
+    animation-duration: 1s;
+}
+
+.project p
+{
+    color: white;
+    font-size: 200%;
+}
+
+.project img
+{
+    height: 100%;
+    width: 100%;
+    transition: filter 0.5s;
+    border-radius: 3%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+.project img:hover
+{
+    transition: filter 0.5s;
+    filter: brightness(50%);
+    cursor: pointer;
+}
+
+/* Project Info Popup */
+.project-info
+{
+    display: none; /* hide popup initially */
+    position: fixed;
+    z-index: 1; /* render on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.project-info-content
+{
+    background-color: #ebebeb;
+    width: 67%;
+    margin: 2% auto;
+    box-shadow: 5px 5px 10px black;
+    animation-name: project-open;
+    animation-duration: 0.7s;
+}
+
+@keyframes project-open
+{
+    from {opacity: 0; }
+    to {opacity: 1; }
+}
+
+
+.project-info-header
+{
+    color: white;
+    text-align: center;
+    height: 100%;
+    text-shadow: 2px 2px black;
+}
+
+.project-info-header h2
+{
+    font-size: 250%;
+    padding-top: 1%;
+}
+
+.project-info-header h3
+{
+    font-size: 175%;
+    line-height: 20px;
+    margin-top: -2%;
+}
+
+.project-info-images
+{
+    padding-top: 2%;
+    overflow-x: auto;
+    text-align: center;
+}
+
+.project-info-images img
+{
+    height: 30%;
+    width: 30%;
+}
+
+.project-info p
+{
+    margin-left: 10px;
+}
+
+.project-info li
+{
+    margin-right: 10px;
+}
+
+.project-info-button
+{
+    height: 30px;
+    width: 75px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 150%;
+    background-color: #3cda69;
+    border: 1px solid black;
+    float: right;
+}
+
+.project-info-button:hover
+{
+    background-color: #1ae754;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.project-info-close
+{
+    display: inline-block;
+    float: none;
+    background-color: #d13535;
+}
+
+.project-info-close:hover,
+.project-info-close:focus
+{
+    background-color: #e21e1e;
+}
+
+/* Project Specific Backgrounds */
+#project-finbuddy
+{
+    background-color: #0073ff;
+}
+
+#project-poker-chips
+{
+    background: url("../img/projects/virtual-poker-chips.png") center;
+    opacity: 0.8;
+}
+
+#project-sphere-archer
+{
+    background: url("../img/projects/sphere-archer.png") center;
+    background-size: cover;
+}
+
+#project-pixelchess
+{
+    background: url("../img/projects/pixelchess.png") center;
+    background-size: cover;
+}
+
+#project-assembly-rpg
+{
+    background: url("../img/projects/assembly-rpg.png") center;
+    background-size: cover;
+}
+
+#project-gogreen
+{
+    background: url("../img/projects/gogreen.png") center;
+    background-size: cover;
+}
